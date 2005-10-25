@@ -1,0 +1,35 @@
+File::Find::Rule::DIZ - Rule to match the contents of a FILE_ID.DIZ 
+
+This module will search through a ZIP archive, specifically the
+contents of the FILE_ID.DIZ file in the archive. 
+
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+
+DEPENDENCIES
+
+The module requires the following modules, available on CPAN:
+
+  Archive::Zip
+  File::Find::Rule
+  Test::More
+
+AUTHOR
+
+Brian Cassidy <bricas@cpan.org>
+
+
+COPYRIGHT AND LICENSE
+
+Copyright 2005 by Brian Cassidy
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
